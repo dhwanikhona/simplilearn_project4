@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Project4_TestNG_Selenium">
+    <classes>
+      <class name="com.test.RegisterationTest"/>
+      <class name="com.test.LoginTest"/>
+      <class name="com.test.SearchTest"/>
+      <class name="com.test.AddToCartTest"/>
+      
+    </classes>
+  </test> <!-- Project4_TestNG_Selenium -->
+</suite> <!-- Suite -->

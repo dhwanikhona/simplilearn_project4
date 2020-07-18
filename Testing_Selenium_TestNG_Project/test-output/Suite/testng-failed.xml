@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Project4_TestNG_Selenium(failed)">
+    <classes>
+      <class name="com.test.AddToCartTest">
+        <methods>
+          <include name="addToCartTest"/>
+        </methods>
+      </class> <!-- com.test.AddToCartTest -->
+      <class name="com.test.SearchTest">
+        <methods>
+          <include name="searchTest"/>
+        </methods>
+      </class> <!-- com.test.SearchTest -->
+      <class name="com.test.RegisterationTest">
+        <methods>
+          <include name="registerationTest"/>
+        </methods>
+      </class> <!-- com.test.RegisterationTest -->
+    </classes>
+  </test> <!-- Project4_TestNG_Selenium(failed) -->
+</suite> <!-- Failed suite [Suite] -->
